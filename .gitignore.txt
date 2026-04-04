@@ -1,0 +1,98 @@
+# =========================
+# Unreal Engine 5 .gitignore
+# =========================
+
+# Ignore build folders
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore local config (keep default config!)
+Saved/Config/WindowsEditor/
+Saved/Config/Windows/
+Saved/Logs/
+Saved/Crashes/
+Saved/Autosaves/
+Saved/Backup/
+
+# Keep important config files
+!Config/Default*.ini
+
+# Ignore generated project files
+*.sln
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Visual Studio files
+.vs/
+.vscode/
+*.vcxproj*
+*.sln.DotSettings
+*.user
+*.userprefs
+*.csproj
+*.pidb
+*.booproj
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Mac
+.DS_Store
+
+# Linux
+*~
+
+# Compiled source
+*.o
+*.obj
+*.so
+*.dll
+*.lib
+*.dylib
+*.exe
+
+# Unreal Engine specific
+*.generated.h
+*.gen.cpp
+
+# Ignore plugin intermediate/build files
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Ignore packaged builds
+*.pak
+*.sig
+
+# Ignore crash reports
+*.log
+*.dmp
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore Derived Data Cache (global or project)
+DerivedDataCache/
+
+# Ignore shader cache
+Saved/Shaders/
+
+# Ignore Unreal auto-generated files
+*.opensdf
+*.sdf
+
+# Keep source and content!
+!Source/
+!Content/
+!Plugins/*/Source/
+!Plugins/*/Content/
+
+# Optional: ignore large raw assets (if using Git LFS instead)
+# *.uasset
+# *.umap
